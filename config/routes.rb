@@ -6,6 +6,8 @@ FormulaireMultiEtapesEmail::Application.routes.draw do
   root 'welcome#index'
   resources :forms
 
+  # + route vers 2e étape du formulaire
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
